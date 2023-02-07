@@ -35,13 +35,47 @@
                         <li class="nav_item"><a href="#about" class="nav_link">Nosotros</a></li>
                         <li class="nav_item"><a href="#services" class="nav_link">Servicios</a></li>
                         <li class="nav_item"><a href="#menu" class="nav_link">Menu</a></li>
-                        <li class="nav_item"><a href="#contact" class="nav_link">Login</a></li>
+                        <section class="nav_item">
+                            <a href="#" class="hero__cta">Login</a>
+                        </section>
                     </ul>
                 </div>
 
             </nav>
         </header>
-
+        <section class="modal">
+            <div class="modal__container">
+                <img src="/img/PiaPiaLogo.jpg" class="modal__img">
+                <h2 class="modal__title">¡Bienvenido al Portal Pia Pia!</h2>
+                <p>Porfavor inicia sesion para usar la plataforma</p>
+                <form class="login-form">
+                    <div class="login-form-content">
+                        <div class="form-item">
+                            <label for="Correo">ingresa tu correo</label>
+                            <input type="text" id="email">
+                        </div>
+                        <div class="form-item">
+                            <label for="password">Ingresa la contraseña</label>
+                            <input type="password" id="password">
+                        </div>
+                        <div class="form-item">
+                            <div class="checkbox">
+                                <input type="checkbox" id="RememberMeCheckbox">
+                                <label for="RememberMeCheckbox" id="checkboxLabel">Recuardame</label>
+                            </div>
+                        </div>
+                        <button type="sbmit">Ingresar</button>
+                    </div>
+                    <div class="login-form-footer">
+                        <a href="#"></a>
+                        <img width="30" src="img/Facebook.png" alt="">Facebook login
+                        <a href="#"></a>
+                        <img width="30" src="img/Google.jpg" alt="">Google login
+                    </div>
+                </form>
+                <a href="#" class="modal__close">Cerrar Login</a>
+            </div>
+        </section>
         <main class="l-main">
 
             <section class="home" id="home">
@@ -53,7 +87,7 @@
                     </div>
                 </div>
             </section>
-
+            
             <section class="about section tk-container" id="about">
                 <div class="about_container tk-grid">
                     <div class="about_data">
@@ -213,7 +247,7 @@
             <p class="footer_copy">&#169; 2021 lorem lorem</p>
 
         </footer>
-
+        <script src="js/Login.js"></script>
     </body>
     
 </html>
