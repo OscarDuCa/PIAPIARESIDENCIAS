@@ -645,7 +645,7 @@ body{
     width: 90%;
     max-width: 600px;
     max-height: 90%;
-    background: linear-gradient(rgb(255, 153, 0), rgb(0, 0, 0));    
+    background: linear-gradient(rgb(255, 153, 0), rgb(255, 255, 255));    
     border-radius: 6px;
     padding: 3em 2.5em;
     display: grid;
@@ -749,7 +749,7 @@ body{
 }
 .form-item label:not(.checkboxLabel){
     display: inline-block;
-    background-color: white;
+
 }
 input[type='text'],
 input[type='password'] {
@@ -771,18 +771,21 @@ input[type='password'] {
 input[type='checkbox'] {
     width: 20px;
     height: 20px;
-    accent-color;
 }
 button {
-    border: none;
+    width: 100%;
+    border-radius: 15px;
     background: linear-gradient(45deg, color:#2a5298);
     padding: irem;
-    background: linear-gradient(blue, pink);
     border radius: 100px;
     text-aling: center;
     text-transform: uppercase;
     font-size: 18px;
     heigt: 55px;
+}
+@media(max-width:1350px){
 
+}
+@media(max-width:768px){
 
 }
